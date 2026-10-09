@@ -20,8 +20,12 @@ jobs:
           distribution: temurin
           java-version: '21'
 
+      # Pinned to the Flutter release this project is built with locally.
+      # Newer releases reject its Gradle 8.12 / AGP 8.7.3 setup; bump this
+      # together with android/settings.gradle.kts and the Gradle wrapper.
       - uses: subosito/flutter-action@v2
         with:
+          flutter-version: 3.44.6
           channel: stable
           cache: true
 
