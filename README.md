@@ -4,6 +4,16 @@ A Flutter rewrite of `budgetgui.py`, with a warm, Claude-inspired look
 (terracotta accent, sage greens, warm paper background) instead of the
 original navy/blue Tkinter theme.
 
+[![Android build](https://github.com/Darenn71/budget-checklist/actions/workflows/android.yml/badge.svg)](https://github.com/Darenn71/budget-checklist/actions/workflows/android.yml)
+
+## Download
+
+**[⬇ Download the latest APK](https://github.com/Darenn71/budget-checklist/releases/latest/download/budget-checklist.apk)**
+
+Built automatically on GitHub from the latest code. Website:
+https://darenn71.github.io/budget-checklist/ · All builds are on the
+[Releases page](https://github.com/Darenn71/budget-checklist/releases).
+
 ## What's included
 
 - **Dashboard** — bank balance (editable), outstanding bills, money left,
